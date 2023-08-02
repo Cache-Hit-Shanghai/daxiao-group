@@ -56,8 +56,8 @@ const Component = () => {
 
 const Page = withProjectPage({ Component, background: 'linear-gradient(to bottom right, #00CCFF, #0033CC)' });
 
-const getServerSideProps = Page.makeGetServerSideProps();
+// const getServerSideProps = Page.makeGetServerSideProps();
 
-export { getServerSideProps };
+// export { getServerSideProps };
 
 export default Page;

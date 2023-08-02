@@ -20,8 +20,8 @@ const Component = () => {
 
 const Page = withProjectPage({ Component });
 
-const getServerSideProps = Page.makeGetServerSideProps();
+// const getServerSideProps = Page.makeGetServerSideProps();
 
-export { getServerSideProps };
+// export { getServerSideProps };
 
 export default Page;
